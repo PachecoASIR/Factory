@@ -9,5 +9,7 @@ public class Main {
         System.out.println("El tipo de embalaje a emplear en la Bicicleta es el número: " + vehiculo.TipoEmbalaje(4F, 4F, 4F, 4F));
     vehiculo = FactoriaTransportes.Vehiculo("Bicicleta");
         System.out.println("El tipo de embalaje a emplear en el Camión es el número: " + vehiculo.TipoEmbalaje(1F,1F,1F, 1F));
+        vehiculo = FactoriaTransportes.Vehiculo("Barco");
+        System.out.println("El tipo de embalaje a emplear en el Camión es el número: " + vehiculo.TipoEmbalaje(0F,0F,0F, 0F));
     }
 }

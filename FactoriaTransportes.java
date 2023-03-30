@@ -3,8 +3,11 @@ public abstract class FactoriaTransportes {
        if (type == "Camion"){
             return new Camion();
         }
-        else{
-            return new Bicicleta();
+       else if (type == "Bicicleta") {
+           return new Bicicleta();
+       }
+       else{
+           return new Barco();
+            }
         }
     }
-}
